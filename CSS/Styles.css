@@ -1,0 +1,19 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+
+main{
+    /* Se agrega !important para que predomine esta configuración height */
+    height: auto !important;
+    height: 100%;
+    /* Se agrega 80vh para el algoritmo reserve el 80 % del view port*/
+    min-height: 80vh;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.215);
+}
+
+.iconos i{
+    color:#dd2478;
+}
