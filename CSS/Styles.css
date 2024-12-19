@@ -1,5 +1,15 @@
 body{
     font-family: "Titillium Web", sans-serif;
+    border:1px solid black;
+}
+
+
+.Navbar{
+    border:1px solid black;
+}
+
+.container{
+    border:10px solid black;
 }
 
 main{

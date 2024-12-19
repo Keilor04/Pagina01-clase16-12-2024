@@ -23,7 +23,7 @@
 <body>
 
     <!-- Inicio Navbar 100 % -->
-    <nav>
+    <nav class="Navbar">
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <!-- Se actualiza nombre del NavBar a App Store -->
             <a class="navbar-brand" href="#">App Store</a>
@@ -34,12 +34,25 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- Se personaliza la barra de navegación -->
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#Header">Encabezado</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Articulos">Articulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Footer">Pie de página</a>
+                    </li>
+
+
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -58,11 +71,12 @@
     </nav>
     <!-- Fin de Navbar -->
 
-    <!-- Inicio de Header 90 %-->
+
 
     <!-- Inicio Container -->
     <div class="container">
-        <header class="mb-5">
+            <!-- Inicio de Header 90 %-->
+        <header id="Header" class="mb-5">
 
             <div class="container mt-5 mb-5">
                 <h1 class="text-center">Header</h1>
@@ -98,7 +112,7 @@
         <main>
             <h1 class="text-center">Main</h1>
             <!-- Sección 1 Testimonios-->
-            <section class="Testimonios">
+            <section id="Testimonios" class="Testimonios">
                 <!-- Contenedor 1 -->
                 <div class="container">
                     <div class="col-md-12 col-sm-12 text-center">
@@ -120,7 +134,7 @@
             <!-- Fin sección 1 Testimonios -->
 
             <!-- Sección 2 Articulos-->
-            <section class="Articulos">
+            <section id="Articulos" class="Articulos">
                 <div class="container">
                     <!-- contenedor 1 -->
                     <div class="row">
@@ -152,7 +166,7 @@
     <!-- Fin container -->
 
     <!-- Inicio Footer 100 %-->
-    <footer class="text-center">
+    <footer id="Footer" class="text-center">
         <!-- Inicio: footer-informacion    -->
         <h1 class="text-center">Footer Información</h1>
         <!-- Inicio: Contenedor 1 5 columnas  -->
