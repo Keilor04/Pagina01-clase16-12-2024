@@ -1,3 +1,11 @@
+:root{
+    /* Esto sirve para agregar propiedades por uno mismo en CSS */
+    --colorglobal:#05023d;
+    --TextClaro:white;
+    --colorglobal2:linear-gradient(to bottom, #dd2476, #ff512f);
+
+}
+
 body{
     font-family: "Titillium Web", sans-serif;
     border:1px solid black;
@@ -9,7 +17,12 @@ body{
 }
 
 .container{
-    border:10px solid black;
+    border:1px solid black;
+}
+
+header{
+    background: var(--colorglobal2);
+    color:var(--TextClaro);
 }
 
 main{
@@ -25,5 +38,5 @@ footer{
 }
 
 .iconos i{
-    color:#dd2478;
+    color:var(--colorglobal);
 }
